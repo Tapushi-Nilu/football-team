@@ -70,6 +70,9 @@ Small devices (landscape phones, 576px and up)
     margin-top: -119px;
     text-align: center;
   }
+  .banner-left h1 {
+    padding-top: 61px;
+  }
   .spinner {
     margin-top: -11%;
   }
@@ -95,7 +98,7 @@ Small devices (landscape phones, 576px and up)
   .hightlight {
     background: url(img/match.jpg) no-repeat;
     background-size: cover;
-    background-position: 0;
+    background-position: center;
   }
 }
 
