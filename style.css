@@ -184,6 +184,7 @@ body {
 }
 .blog h2 {
   color: #000000d1;
+  padding: 12px 0;
 }
 .blog-box {
   width: 330px;
