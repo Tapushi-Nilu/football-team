@@ -44,6 +44,29 @@ Small devices (portrait phones,less then 576px)
     margin: 34px 0px;
     text-align: center;
   }
+  .subscribes {
+    padding: 93px 55px;
+    background: #ffcd33cf;
+  }
+  .about img {
+    box-shadow: -15px 15px #000;
+  }
+  .about-left h1 {
+    padding-top: 0px;
+  }
+  .about-section {
+    display: block;
+  }
+  .about-left p {
+    color: #fff;
+    padding: 0px;
+  }
+  .subscribes::before {
+    display: none;
+  }
+  .about {
+    margin-top: 70px;
+  }
   .social-icon ul li {
     margin-bottom: -13px;
   }
@@ -87,6 +110,7 @@ Small devices (landscape phones, 576px and up)
   .blogs-wrap {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .hightlight-wrap {
     display: block;
   }
@@ -99,6 +123,13 @@ Small devices (landscape phones, 576px and up)
     background: url(img/match.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+  }
+  .about img {
+    margin-top: 50px;
+  }
+  .about-section {
+    display: block;
+    padding: 0px 0px 60px 0px;
   }
 }
 
@@ -151,6 +182,23 @@ Medium devices (tablets, 768px and up)
   .spinner {
     margin-top: -9%;
   }
+  .about img {
+    margin-top: 50px;
+  }
+  .about-section {
+    display: block;
+    padding: 0px 0px 60px 0px;
+  }
+  .subscribes {
+    padding: 93px 55px;
+    background: #ffcd33cf;
+  }
+  .subscribes::before {
+    display: none;
+  }
+  .about img {
+    box-shadow: -15px 15px #000;
+  }
 }
 
 /* 
@@ -173,10 +221,20 @@ Large devices (Desktops, 992px and up)
   .spinner {
     margin-top: -8%;
   }
+  .about-left {
+    width: 50%;
+  }
+  .about-left p {
+    padding: 8px 30px 20px;
+    color: #fff;
+  }
 }
 /* 
 Extra large devices (large desktops, 1200px and up)
   */
 
 @media (min-width: 1200px) {
+  .about-left {
+    width: 50%;
+  }
 }
