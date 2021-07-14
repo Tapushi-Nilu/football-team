@@ -41,7 +41,7 @@ Small devices (portrait phones,less then 576px)
     margin: 34px 0px;
     text-align: center;
   }
-  ..social-icon ul li {
+  .social-icon ul li {
     margin-bottom: -13px;
   }
 }
