@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
 --------header-section-start--------
 */
 .header {
-    padding: 30px 0;
+  padding: 30px 0;
 }
 .menu {
   display: flex;
@@ -33,21 +33,24 @@ body {
 .navber ul li a {
   color: #fff;
   text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
 }
 .fa,
 .fas {
   padding-right: 12px;
 }
+.login {
+  margin-top: 12px;
+}
 .login a {
-    background-color: #373542;
-    border: 1px solid #ffcd33;
-    text-decoration: none;
-    padding: 12px 19px;
-    color: #fff;
-    font-weight: 600;
-    font-size: 18px;
+  background-color: #373542;
+  border: 1px solid #ffcd33;
+  text-decoration: none;
+  padding: 12px 19px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
 }
 /* 
   --------header-section-end--------
@@ -67,76 +70,83 @@ body {
 }
 
 .banner-section {
-    width: 80%;
-    padding: 166px 0px 80px 0px;
+  width: 80%;
+  padding: 166px 0px 0px 0px;
 }
 .banner-wrap {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-}
+
 .banner-left {
   width: 100%;
+  padding-bottom: 94px;
 }
 .banner-left h1 {
-  font-size: 52px;
+  font-size: 62px;
   color: #ffcd33;
   font-weight: 700;
   line-height: 76px;
   margin-bottom: 37px;
   margin-top: 88px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  width: 447px;
 }
 
 .banner-left a {
-    background-color: #373542;
-    border: 1px solid #ffcd33;
-    text-decoration: none;
-    padding: 12px 19px;
-    color: #fff;
-    font-weight: 600;
-    font-size: 18px;
+  background-color: #373542;
+  border: 1px solid #ffcd33;
+  text-decoration: none;
+  padding: 12px 19px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
 }
 .fa,
 .fas {
   margin-left: 13px;
 }
+
 .banner-right img {
   width: 80%;
   margin-left: 123px;
   transform: rotate(-10deg);
   transition: all 0.2s ease-in-out;
 }
-.banner-right{
-    animation: MoveUpDown 0.5s linear infinite;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    position: relative;
-    left: 0;
-    bottom: 0;
-    transition: all 1s ease-in-out;
-    
+.banner-right {
+  animation: MoveUpDown 0.5s linear infinite;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  transition: all 1s ease-in-out;
 }
 @keyframes MoveUpDown {
-
-    0%, 100% {
-      bottom:0;
-    }
-    50% {
-      bottom: 40px;
-    }
+  0%,
+  100% {
+    bottom: 0;
   }
-.img img{
-    width: 65px;
-    height: 65px;
-    position: absolute;
-    right: 691px;
-    top: 307px;
-    background-color: #000000c7;
-    padding: 10px;
-    border-radius: 48px;
-    animation: rotation 3s linear infinite;
+  50% {
+    bottom: 40px;
+  }
+}
+
+.spinner {
+  margin-top: -5%;
+}
+.img {
+  width: 100%;
+  text-align: center;
+}
+.img img {
+  width: 65px;
+  height: 65px;
+  background-color: #000000c7;
+  padding: 10px;
+  border-radius: 48px;
+  animation: rotation 3s linear infinite;
 }
 
 @keyframes rotation {
@@ -146,7 +156,7 @@ body {
   to {
     transform: rotate(359deg);
   }
-}  
+}
 /* 
   --------banner-section-end--------
   */
@@ -176,8 +186,8 @@ body {
   width: 300px;
   height: 256px;
 }
-.blog h2{
-    color: #000000d1;
+.blog h2 {
+  color: #000000d1;
 }
 .blog-box {
   width: 330px;
@@ -288,19 +298,18 @@ footer {
 .social-icon ul li {
   list-style: none;
   background: #ffcd33;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    line-height: 31px;
-    border-radius: 19px;
-    margin-top: 37px;
-
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 31px;
+  border-radius: 19px;
+  margin-top: 37px;
 }
 .social-icon ul li a i {
   color: #000;
 }
-.copyright{
-    color: #000000ad;
-    font-size: 14px;
-
+.copyright {
+  color: #000000ad;
+  font-size: 14px;
+  margin-top: 15px;
 }
