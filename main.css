@@ -131,6 +131,13 @@ Small devices (landscape phones, 576px and up)
     display: block;
     padding: 0px 0px 60px 0px;
   }
+  .subscribes {
+    padding: 93px 55px;
+    background: #ffcd33cf;
+  }
+  .subscribes::before {
+    display: none;
+  }
 }
 
 /* 
@@ -234,7 +241,4 @@ Extra large devices (large desktops, 1200px and up)
   */
 
 @media (min-width: 1200px) {
-  .about-left {
-    width: 50%;
-  }
 }
